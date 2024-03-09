@@ -241,3 +241,7 @@ h3 {
 @media only screen and (max-width: 600px) {
   /* Küçük ekranlar için stil ayarları */
 }
+
+#pson1 {
+  font-weight: bold;
+}
