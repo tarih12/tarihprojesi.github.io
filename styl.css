@@ -76,7 +76,6 @@ body{
   background-color: #f8f9fa;
   padding: 50px;
   text-align: center;
-  text-transform: capitalize;
 }
 
 h3{
@@ -191,8 +190,8 @@ h3 {
 }
 
 #myVideo {
-  width: 50%; 
-  height: auto; 
+  width: 30%; 
+  height: 500px;
 }
 
 #youtubeIcon {
@@ -237,11 +236,54 @@ h3 {
   width: 50%; 
 }
 
-/* Örnek bir medya sorgusu */
-@media only screen and (max-width: 600px) {
-  /* Küçük ekranlar için stil ayarları */
+#ınstagramıcon23 {
+  font-size: 25px; 
 }
 
 #pson1 {
   font-weight: bold;
+}
+
+#cem {
+  width: 65%; 
+  height: auto; 
+}
+
+#im12{
+  width: 55%; 
+  height: auto; 
+  margin-top: 40px; 
+}
+
+#kap1{
+  width: 55%; 
+  height: auto; 
+  margin-top: 40px; 
+}
+
+.resim-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resim-container img {
+  width: 45%; 
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.ikili-resim {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ikili-resim img {
+  width: 45%; 
+  margin-bottom: 20px;
+  height: auto;
+  margin-top: 40px;
+}
+
+#psag {
+  font-size: 16px; 
 }
